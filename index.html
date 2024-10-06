@@ -3,296 +3,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
-    <title>Shalom Divine Minisrties Int'i Inc</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>SMD</title>
+
 </head>
 <body>
-  <div class="loading"></div>
-    <div class="bg1">
-    <div class="bg">
-
-
-    <nav>
-       
-
-        <ul>
-            <li><a href="index-about.html">About</a></li>
-            <li><a href="index-minisitries.html">Minisrties</a></li>
-            <li><a href="index-donate.html">Donate</a></li>
-            <li><a href="index-events.html">Events</a></li>
-            <li><a href="index - blog.html">Blog</a></li>
-            <li><a href="index-contact.html">Contact</a></li> 
-            <button><a href="index-contact.html"> Get in Touch</a></button>
-            
+    <div id="home" class="head">
+      
+ <ul class="bar" >
+   <img  class="logo" src="image/SMD LOGO3.png" alt="" width="20%">
+    <li onclick="ShowSidebar()"><i id="menu" class="material-icons">menu</i></li>
+ 
+    <li class="hide"><a href="#contact">Contact</a></li>
+    <li class="hide"><a href="#about">About</a></li>
+    <li class="hide"><a href="#S&P">Service</a></li>
+    <li class="hide"><a href="#home">Home</a></li>
+    
 </ul>
-      <div class="menu"  ><i onclick="ShowSidebar()" class="fa fa-bars" aria-hidden="true" style="font-size: 25px;" ></i></div>
-      <a href="index.html"><img src="image/shalom logo.png" alt="shalom logo" ></a> 
-         <ul class="sidebar">
-            <i onclick="HideSidebar()" class="fa fa-close" aria-hidden="true" style="font-size: 25px;" ></i>
-            <li><a href="index-about.html">About</a></li>
-            <li><a href="index-minisitries.html">Minisrties</a></li>
-            <li><a href="index-donate.html">Donate</a></li>
-            <li><a href="index-events.html">Events</a></li>
-            <li><a href="index - blog.html">Blog</a></li>
-            <li><a href="index-contact.html">Contact</a></li>
-        </ul>
-    </nav>
-  <div class="page1">
-  <center>  <h1>Worship with Us @ <br>Shalom Divine Minisrties Int'i Inc </h1>
-    <p>The Lord is my peace Aka Divine Solution Center
-       </p>
+    <ul class="sidebar">
+        <li onclick="HideSidebar()"><span class="close">&times</span></li>
+    <li><a href="#home">Home </a></li>
+    <li><a href="#S&P">Service</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+        </ul> 
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    function ShowSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display='flex'
+    }
+    function HideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display='none'
+    }
+    AOS.init();
+ 
 
-        <button class="btn1"><a href="index-about.html">We are we</a></button> 
-        <button class="btn2"><a href="index-contact.html">Get in Touch</a></button></center>
- </div></div>
-        <div class="adbox">
-            <div class="ad"><img src="image/icons8-cathedral-160.png" alt="">
-              <h2>Visit our Church <br><span>No 12 Shalom Avenue Greenland 
-               <br>Estate  Off Badagry express way, 
-               <br> OlorunShogo bus stop </span> </h2> 
-                </div>
-            <div class="ad"><img src="image/icons8-email-128.png" alt="">
-              <h2>Email us <br> <span>Pastor-cliphinenelson@minister.com</span></h2></div>
-            <div class="ad"><img src="image/icons8-call-128.png" alt="">
-              <h2>Call us Now <br> <span>08034084372
-            </span></h2></div>
-        </div>
+
+</script><button class="btn"><a href="https://www.instagram.com/ibrahimabdulsamod?igsh=YzljYTk1ODg3Zg==">Contact Me</a></button>
+<div class="bg"> <div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
+<div id="up" class="container">
+    <img data-aos="fade-down" class="ceo" src="image/ceo.png" alt="Owner" width="250px" height="350px">
+
+   <img src="4691525_messenger_icon.png" alt="" style="color: aliceblue;">
+
+<h1 data-aos="fade-right" class="name my-element">Hello, <br> I'M Abdulsamod Ibrahim <br>
+    <span class="color"> Graphic Designer & <br> Web Developer</span></h1>
+
+
+</div>
+</div>
+
+   <div class="tools-container">
+    <h1 class="tool">Tools:</h1>
+    <div class="tools">
+        <img src="image/tools (1).png" alt="" width="50px">
+        <img src="image/tools (2).png" alt="" width="50px">
+        <img src="image/tools (3).png" alt="" width="50px">
+        <img src="image/tools (4).png" alt="" width="50px">
+        <img src="image/tools (5).png" alt="" width="50px">
+        <img src="image/tools (6).png" alt="" width="50px">
+        <img src="image/tools (7).png" alt="" width="50px">
+    </div>
+    <div class="tools">
+        <img src="image/tools (1).png" alt="" width="50px">
+        <img src="image/tools (2).png" alt="" width="50px">
+        <img src="image/tools (3).png" alt="" width="50px">
+        <img src="image/tools (4).png" alt="" width="50px">
+        <img src="image/tools (5).png" alt="" width="50px">
+        <img src="image/tools (6).png" alt="" width="50px">
+        <img src="image/tools (7).png" alt="" width="50px">
+    </div>
+    </div>
+
+     <h2  class="my" id="S&P"><span data-aos="zoom-in"> Services</span></h2>
+    <div class="line"></div>
+
+    <div class="over">
+      <div class="image-container"> 
+      
+
+ <div  class="image"  ><img class="img1" data-aos="zoom-in"  src="image/image (23).jpg" alt="">
+         </div>
+   <div class="image"><img data-aos="zoom-in" class="img1" src="image/image (6).jpg" alt="">
+  </div>
+     <div class="image"><img data-aos="zoom-in" class="img1" src="image/image (4).jpg" alt="">
   </div> 
+        <div class="image"><img data-aos="zoom-in" class="img1" src="image/image (12).jpg" alt="">
+     </div>
+<div class="image"><img data-aos="zoom-in" class="img1" src="image/image (15).jpg" alt="">
+ </div>
+ <div class="image"><img data-aos="zoom-in" class="img1" src="image/image (14).jpg" alt="">
+ </div> </div>
 
-  <div class="page2">
-    <p class="para1">ABOUT US</p>
-    <h1 class="tran">Transforming Live <br> Restoring Hope</h1>
-
-    <button><a href="index-about.html">Learn More about Shalom</a></button>
-
-    <img src="image/about.jpg" alt="">
-    <br>
-    <br>
-    <br>
-
-    <h1 class="goal">02. <span>Goals & Missions</span></h1>
-    <p class="para2">to glorify God by preaching the gospel among all nations, 
-      making disciples and establishing churches of believers who worship God, obey 
-      Christ's commands, and grow to maturity.</p>
-    
-    <div class="four-box"> <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 25px;" >
-    </i>A Church that love God and people</div>
-    <div class="four-box"> <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 25px;" >
-    </i>Keeping our church running smoothly</div>
-    <div class="four-box"> <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 25px;" >
-    </i>Areas all of us struggle to trust God</div>
-    <div class="four-box"> <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 25px;" >
-    </i>We are committed to Jesus Christ, the Bible</div>
-    <br>
-    <br>
-    <br>
-    <div class="side">
-        <h1 class="goal">01. <span>About Our Community</span></h1>
-        <p class="para2i">It offers a place for worship, prayer, teaching,
-           and fellowship, nurturing individuals in their faith journey.</p>
-        <div class="comm"> <div class="box"><i class="fa fa-gratipay" aria-hidden="true" style="font-size: 35px;" >
-        </i></div> <h2>500+ <span>New Volunteer Weekly</span></h2></div>
-        <div class="comm"> <div class="box"><i class="fa fa-credit-card" aria-hidden="true" style="font-size: 35px;" >
-        </i></div><h2>$50M+<span>Managed donations</span></h2></i></div>
-        <img src="image/worshp.jpg" alt="">
     </div>
-  </div>
-
-  <div class="page3">
-    <p class="para3">GET INVOLVED NOW</p>
-    <h1>View More About Our Minisrties</h1>
-
-    <button><a href="index-minisitries.html">Browse all Minisrties</a></button>
-    <div class="container swiper">
-    <div class="slider-wrapper">
-      <div class="card-list swiper-wrapper">
-        <div class="card-item swiper-slide">
-          <img class="user-image" src="image/student-ministry-5.jpg" alt="" >
-          <br>
-          <br>
-          <h2 class="user-name">Students Ministry</h2>
-          <br>
-          <p class="user-profession">
-            Our Second Students ministry offers JHigh and High School students
-             representing over 250 schools across the Houston area a fun and
-              vibrant community in which they find a place to belong, build 
-              lasting relationships and deepen their walks with God. In-depth
-               discipleship opportunites, worship at LIVE on Wednesday nights
-             and weekend Bible Study teach students how to live with purpose 
-             and meaning. 
-          </p>
-          </div>
-
-        <div class="card-item swiper-slide">
-            <img class="user-image" src="image/chuldren.jpeg" alt="" >
-            <br>
-            <br>
-            <h2 class="user-name">Children's Ministry</h2>
-            <br>
-            <p class="user-profession">Second truly loves kids and embraces a
-               commitment to support families by teaching God’s Word
-                and maintaining an atmosphere that inspires faith and 
-                growth. Our SecondKids Ministry focuses on guiding children
-                 through each stage of life with fun and intentionality while
-                  preparing parents to cultivate their child’s 
-                  growing faith in God.
-             </p>
-            
-            </div>
-
-        <div class="card-item swiper-slide">
-              <img class="user-image" src="image/YOUTH-MINISTRY.jpg" alt="" >
-              <br>
-              <br>
-              <h2 class="user-name">Youth Ministry</h2>
-              <br>
-              <p class="user-profession">
-                At Second Baptist Church, we are committed to creating community.
-                 The key to connecting is getting involved in a Bible Study class.
-                  Adult Bible Study is the heartbeat of the Second Family and is
-                   what gives our big church a friendly, small town feel. Classes 
-                   are designed with our diverse crowd in mind.  
-              </p>
-              </div>
-
-        <div class="card-item swiper-slide">
-                <img class="user-image" src="image/chuldren.jpeg" alt="" >
-                <br>
-                <br>
-                <h2 class="user-name">Children's Ministry</h2>
-            <br>
-            <p class="user-profession">Second truly loves kids and embraces a
-               commitment to support families by teaching God’s Word
-                and maintaining an atmosphere that inspires faith and 
-                growth. Our SecondKids Ministry focuses on guiding children
-                 through each stage of life with fun and intentionality while
-                  preparing parents to cultivate their child’s 
-                  growing faith in God.
-             </p>
-                </div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-  </div>
-</div>
-
-
-<div class="page4">
-  <img src="image/christs-love-i.jpg" alt="">
-  <h1 class="preach">01. <span>We Preach The Gospel In Every Sermon</span></h1>
-  <p class="para5">We are not preaching the Gospel of a
-     dead Christ, but of a living Christ who sits exalted 
-     at the Father's right hand, and is living to sav
-     e all who put their trust in Him. That is why those
-      of us who really know the Gospel never have any
-       crucifixes around our churches or in our homes.
-        The crucifix represents a dead Christ hanging
-         languid on a cross of shame. But we are not 
-         pointing men to a dead Christ; we are preaching
-          a living Christ. He lives exalted at God's right
-           hand, and He "saves to the uttermost all who come
-            to God by Him."
-    Henry Allen Ironside</p>
-   <p class="para6">Shalom will direct your gifts to the area of greatest need and impact.</p>
-
-  <button><a href="index-minisitries.html">Browse all Minisrties</a></button>
-
-</div>
     
-<div class="page5">
-  <p class="para7">OUR LAST NEWS</p>
-  <h1>The Chouch Life</h1>
+   </div>
+   <div class="advert"><marquee behavior="" direction="left">We Deals With! &raquo; advertisings &raquo; web designs 
+    &raquo; brand logos &raquo; website builder  &raquo;product designs &raquo; backend management
+    &raquo; social media poster &raquo; Besiness card
+    &raquo; illustration
+    &raquo; mock up designs </marquee></div>
+    <div class="container-about area"> <ul class="circles">
+        <li class="li" ></li>
+        <li class="li" ></li>
+        <li class="li" ></li>
+        <li class="li" ></li>
+        <li class="li" ></li>
+        <li class="li" ></li>
+        <li class="li" ></li>
+        <li class="li" ></li>
+        <li class="li" ></li>
+        <li class="li" ></li>
+</ul>
+        <h1 id="about" class="ab">About Us</h1>
+       
+       <div> <img data-aos="zoom-in-right" class="dev" src="image/dev.png" alt="dev"></div>
+            <div class="ab1">
+    
+            <p data-aos="zoom-in"  class="para1">I'm a graphic desiger and web Developer with a passion for making things look good. <br>
+   so if you'r looking for someone to design you'r next marketing campaign or build you'r website, you've come to the right place. <br>
+   I have been working as a web developer for quite some time now. <br>
+   I believe I am a very ambitious person who loves to work on making the website work well
+   <br>
+   <br> 
+    I am a creative and innovation thinker with a strong attention to detail. <br>
+       I am always looking for new ways to improve my skills and knowledge</p>
+   </div>
+   <div class="space"></div>
 
-  <img class="img" src="image/worshp.jpg" alt="">
-  <p class="para8"><i  class="fa fa-calendar" aria-hidden="true" style="font-size: 17px;" >&nbsp;&nbsp;</i>May 2, 2023</p>
-  <p class="para8"><i  class="fa fa-clock-o" aria-hidden="true" style="font-size: 19px;" >&nbsp;&nbsp;</i>12min</p>
-  <h1>What Will Religion Be Like In 100 Years From Now?</h1>
+   <div class="bg1">
+   <div class="container1" data-aos="fade-right"
+   data-aos-offset="300"
+   data-aos-easing="ease-in-sine"> >
+   <h3 data-aos="zoom-in">My Skills</h3>
+   <h4>Designing</h4>
+   <div class="rate"></div>
+  
+   <h4 data-aos="zoom-in">Adobo Photoshop</h4>
+   <div  class="rate2"></div>
+   <h4 data-aos="zoom-in">fontend programme</h4>
+   <div class="rate3"></div>
+   <h4 data-aos="zoom-in">backend programme</h4>
+   <div class="rate4"></div>
+ 
+   <br>
+   <div class="works" data-aos="fade-up"
+   data-aos-anchor-placement="top-center">
+   <div class="working"><p>project complete</p>
+       <img class="icon" src="image/icon1 (1).png" alt=""> <br>
+       344+</div>
+           <br>
+   <div class="working"><p>Work Experience</p>
+       <img class="icon" src="image/icon1 (2).png" alt=""><br>
+       5+</div>
+       <br>
+   <div class="working" class="value" akhi="1000"><p>Happy Client</p>
+       <img class="icon" src="image/icon1 (3).png" alt=""><br>
+       544+
+   </div></div>     
+       </div> 
+   </div>
+   
+           <h3 data-aos="fade-up" class="pri">My price</h3>
+<div class="price-container">
+       <div class="price" data-aos="fade-up"
+       data-aos-anchor-placement="top-bottom">
+           <h2>Basic</h2>
+          <p> Web Developer</p>
+          <p>Graphic Design</p>
+          <p>5GB Storage</p>
+          <p>Mail Support</p>
+          <h4>$100</h4>
+           <h3><span>Sign up</span></h3>
+       </div>
 
-  <div class="right">
-  <img src="image/new bible.jpg" alt="">
-  <p class="para8"><i  class="fa fa-calendar" aria-hidden="true" style="font-size: 17px;" >&nbsp;&nbsp;</i>May 2, 2024</p>
-  <h3>10 Grat Example of God Intervention in Gospel</h3>
-
-  <img src="image/new pic.jpg" alt="">
-  <p class="para8"><i  class="fa fa-calendar" aria-hidden="true" style="font-size: 17px;" >&nbsp;&nbsp;</i>May 2, 2024</p>
-  <h3>3 Easy Steps to Improve our Donation Process</h3>
-
-  <img src="image/news people-praying.jpg" alt="">
-  <p class="para8"><i  class="fa fa-calendar" aria-hidden="true" style="font-size: 17px;" >&nbsp;&nbsp;</i>May 2, 2024</p>
-  <h3>The History of Holly Bible Tilled by now days Believers</h3>
+       <div class="price" data-aos="fade-up"
+       data-aos-anchor-placement="bottom-bottom">
+        <h2>Basic pro</h2>
+       <p> Web Developer</p>
+       <p>Graphic Design</p>
+       <p>30GB Storage</p>
+       <p>Mail Support</p>
+       <h4>$600</h4>
+        <h3><span>Sign up</span></h3>
 </div>
+        <div class="price" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+            <h2>Pro</h2>
+           <p> Web Developer</p>
+           <p>Graphic Design</p>
+           <p>50GB Storage</p>
+           <p>Endless Support</p>
+           <h4>$1500</h4>
+            <h3><span>Sign up</span></h3>
+        </div>
+       </div>
 </div>
+       <div  class="Contact-container">
+        <h3 data-aos="fade-up">Contact us</h3>
+        <h2 id="contact" data-aos="fade-down"><i id="con" class="material-icons" style="font-size: 35px;">mail</i><a href="mailto:abdulsamodibrahim@gmail.com?subject=feedback&body=message"> smdgrafixworld@gmail.com</a></h2>
+        <h2 data-aos="fade-down"><i id="con" class="material-icons" style="font-size: 35px;">call</i> +234-7088-644-250</h2>
 
-
-<div class="footer">
-  <img src="image/shalom logo.png" alt="">
-
-  <p class="para8">
-    We have a strong sense of commmunity with parishionsers.
-    People and children of all ages here are 
-    encouraged to learn about their
-     own faith and the role of the church in
-      our community and worldwide. 
-  </p>
-
-  <h4>Follow our social</h4>
-   <span>
-  <a href="#">
-  <i class="fa fa-facebook-square" aria-hidden="true"
-   style="font-size: 19px;" ></i>
-  </a>&nbsp;&nbsp;
-  <a href="#">
-    <i class="fa fa-instagram" aria-hidden="true"
-     style="font-size: 19px;" ></i>
-    </a>&nbsp;&nbsp;
-    <a href="#">
-      <i class="fa fa-twitter" aria-hidden="true"
-       style="font-size: 19px;" ></i>
-      </a>&nbsp;&nbsp;
-      <a href="#">
-        <i class="fa fa-youtube-play" aria-hidden="true"
-         style="font-size: 19px;" ></i>
-        </a>
-
-  </span>
-    <div class="right">
+       
+            <form data-aos="fade-down" action="https://formsubmit.co/93ffb2b418b097362c63d3f8c2b17193" method="POST" >
+                <input type="text" name="Name" placeholder="Name" required><br>
+                <input type="email" name="Email" placeholder="Email" required><br>
+                <input type="text" name="Subject" placeholder="Subject" required><br>
+                <textarea rows="30px" cols="30px"  name="message" required>
+                   Some text....
+                 </textarea><br>
+                 <button class="send" type="submit">Send</button>
+            </form>
+            <a href="#up" class="up"><img src="image/arrow_upward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"></a>
      
-  <h2>Navigation</h2>
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="index-about.html">About</a></li>
-  <li><a href="index-minisitries.html">Minisrties</a></li>
-  <li><a href="index-donate.html">Donate</a></li>
-  <li><a href="index-events.html">Events</a></li>
-  <li><a href="index - blog.html">Biog</a></li>
-  <li><a href="index-contact.html">Get in Touch</a></li>
-  </ul>
-  <div class="right1">
-
-    <h2>Contact</h2>
-
-    <a href="mailto:Pastor-cliphinenelson@minister.com">Pastor-
-      cliphinenelson@minister.com</a>
-
-      <p class="para9">+234(0)8034084372</p>
-
-    <address>No 12 Shalom Avenue Greenland
-       Estate Off Badagry express way,
-        OlorunShogo bus stop 
-    </address></div>
+            
   </div>
-  <div class="line"></div>
-    <p class="para10">Crafted by <a href="#">Ibrahim Abdulsamod</a></p>
-
-    <p class="para10">Crafted by <a href="#">Ibrahim Abdulsamod</a></p>
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
-    </script><script src="javascript.js"></script>
+     </div> 
+     <div class="footer">
+     <footer>
+                <a target="_blank" href="https://youtube.com/@ibrahimabdulsamod?si=9DZ0Pkpi3e81hGSm"><img class="icn" src="image/icon (1).png" alt=""></a>
+                <a target="_blank" href="https://wa.me/message/BKUSIF7MLAMTP1"><img class="icn" src="image/icon (3).png" alt=""></a>
+                <a target="_blank" href="https://www.instagram.com/ibrahimabdulsamod?igsh=YzljYTk1ODg3Zg=="><img class="icn" src="image/icon (2).png" alt=""></a>
+                <a target="_blank" href="https://www.facebook.com/abdulsamod.ibrahim.792303"><img class="icn" src="image/icon (4).png" alt=""></a>
+                <a target="_blank" href="https://vm.tiktok.com/ZMrm1uJ4m/"><img class="icn" src="image/icon (5).png" alt=""></a>
+            </footer></div>
 </body>
 </html>
